@@ -50,14 +50,14 @@ class Register extends Component {
 
   render() {
     return (
-      <div>
+      <div className="body">
 
         <div className="auth-card">
           <p>Register Page</p>
 
           <form onSubmit={this.handleSubmit}>
-            <input type="email" id="email" placeholder="email" onChange={this.handleChangeText} /> <br />
-            <input type="password" id="password" placeholder="password" onChange={this.handleChangeText} /> <br />
+            <input type="email" id="email" placeholder="email" onChange={this.handleChangeText} />
+            <input type="password" id="password" placeholder="password" onChange={this.handleChangeText} />
 
             <button className="btn">Register</button>
           </form>
